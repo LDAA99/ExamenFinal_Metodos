@@ -12,5 +12,5 @@ h=2.0/10
 #segunda derivada, donde y1 es el siguiente valor, y es el valor actual y 1y es el valor anterior, las y recorreran la lista fx y el h se haya desde las diferencias equiespaciadas de x 
 
 def seg(y, y1, 1y):
-    s=(1/h**2)*(y1-2y+1y)
+    s=(1/h**2)*(y1-2*y+1y)
     return s
