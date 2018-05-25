@@ -38,9 +38,9 @@ def dzdt(z, x, y): #los nuevos valores de z
     c=-beta * z + x * y
     return c
 
-#para determinar que no pase de 5.0 el tiempo
-N=(tmax-t)/(deltat+1)
-for i in range(N):
+#para determinar que no pase de 5.0 el tiempo, tmax/deltat=50
+
+for i in range(50):
     equis=dxdt(X[i], Y[i])
     X.append(equis)
     #al estar acoplados
